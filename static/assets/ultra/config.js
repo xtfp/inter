@@ -1,6 +1,6 @@
 self.__uv$config = {
   prefix: "/a/",
-  bare: "/fq/",
+  bare: "https://mykhanacademymath.webconstructions.co.uk/seal/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/assets/ultra/handler.js?v=9-30-2024",

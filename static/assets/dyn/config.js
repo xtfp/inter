@@ -5,7 +5,7 @@ self.__dynamic$config = {
 	logLevel: 0,
 	bare: {
 		version: 2,
-		path: "/fq/",
+		path: "https://mykhanacademymath.webconstructions.co.uk/seal/",
 	},
 	tab: {
 		title: null,
