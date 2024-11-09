@@ -74,14 +74,13 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-
 app.use(express.static(path.join(__dirname, "static")));
 
 const routes = [
-  { path: "/yz", file: "apps.html" },
-  { path: "/up", file: "games.html" },
-  { path: "/vk", file: "settings.html" },
-  { path: "/rx", file: "tabs.html" },
+  { path: "/a", file: "a.html" },
+  { path: "/u", file: "u.html" },
+  { path: "/s", file: "s.html" },
+  { path: "/t", file: "t.html" },
   { path: "/", file: "index.html" },
 ];
 
@@ -100,7 +99,6 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).sendFile(path.join(__dirname, "static", "404.html"));
 });
-
 
 server.on("listening", () => {
   console.log(chalk.green(`🌍 Server is running on http://localhost:${PORT}`));

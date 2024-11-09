@@ -10,10 +10,10 @@ const input = document.getElementById("iv");
 if (form && input) {
   form.addEventListener("submit", async event => {
     event.preventDefault();
-    if (window.top.location.pathname === "/rx") {
+    if (window.top.location.pathname === "/t") {
       processUrl(input.value, "");
     } else {
-      processUrl(input.value, "/rx");
+      processUrl(input.value, "/t");
     }
   });
 }
@@ -41,7 +41,7 @@ function processUrl(value, path) {
 }
 
 function go(value) {
-  processUrl(value, "/rx");
+  processUrl(value, "/t");
 }
 
 function blank(value) {
