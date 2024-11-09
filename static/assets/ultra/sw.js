@@ -3,7 +3,7 @@ importScripts("/assets/ultra/bundle.js?v=9-30-2024"),
 class UVServiceWorker extends EventEmitter {
   constructor(e = __uv$config) {
     super(),
-      e.bare || (e.bare = "/fq/"),
+      e.bare || (e.bare = "https://mykhanacademymath.webconstructions.co.uk/seal/"),
       (this.addresses =
         "string" == typeof e.bare
           ? [new URL(e.bare, location)]
